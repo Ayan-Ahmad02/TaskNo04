@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.area{
+    margin-top:40px;
+}
+
+#img-area {
+    border:1px solid black;
+    margin:0 auto;
+    text-align: center;
+    width:600px;
+}
+
+#img-area img {
+    width:100%;
+    display:block;    
+}
+
+#img-area button {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: linear-gradient(to right , orange , green);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
